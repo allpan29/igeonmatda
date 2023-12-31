@@ -1,0 +1,54 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+  #game {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+  
+  .cards {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  .card {
+    width: 50px;
+    height: 80px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    margin-right: 5px;
+    text-align: center;
+    line-height: 80px;
+    font-size: 16px;
+  }
+
+  #dealer-cards .card{
+    background-color: #ddd;
+  }
+  
+  #score,
+  #dealer-score {
+    margin-bottom: 10px;
+    display: inline-block;
+    margin-right: 20px;
+  }
+
+  button {
+    display: block;
+    margin-top: 10px;
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  
